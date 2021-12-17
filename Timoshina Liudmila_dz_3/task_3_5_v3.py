@@ -11,10 +11,10 @@ def get_jokes_2(n):
     nn_list = sample(nouns,n)
     adv_list = sample(adverbs,n)
     adj_list = sample(adjectives,n)
-    for nn, adv, adj  in zip(nn_list, adv_list, adj_list):
-        jokes += f'{nn} {adv} {adj}'
+    for nn, adv, adj in zip(nn_list, adv_list, adj_list):
+        print(f'{nn} {adv} {adj}')
 
-get_jokes_2(3)
+get_jokes_2(5)
 
 
 
